@@ -1,0 +1,119 @@
+/* navigation  */
+
+#navbar {
+    flex-direction: column;
+}
+
+#navbar ul li a {
+    font-size: 1rem;
+    padding: 0px 5px;
+}
+
+
+/* home  */
+
+#home {
+    height: 300px;
+    padding: 5px 25px
+}
+
+#home::before {
+    height: 395px;
+}
+
+#home p {
+    font-size: 0.8rem;
+}
+
+
+/* services  */
+
+#sevice-container {
+    height: 1170px;
+}
+
+#sevice-container::before {
+    height: 1170px;
+}
+
+#services {
+    flex-direction: column;
+}
+
+#sevice-container h1 {
+    font-size: 2rem;
+}
+
+#services .box img {
+    height: 65px;
+}
+
+#services p {
+    font-size: 0.8rem;
+}
+
+#services .box {
+    border-radius: 0px;
+    margin: 4px;
+    padding: 2px 0px;
+}
+
+
+/* clients */
+
+#clients {
+    flex-wrap: wrap;
+}
+
+#clients img {
+    height: 55px;
+}
+
+.clients-item {
+    height: 22px;
+    padding: 47px 6px;
+}
+
+#clients-section {
+    height: 350px;
+}
+
+#clients-section::before {
+    height: 355px;
+}
+
+
+/* contact us  */
+
+#contact {
+    height: 480px;
+}
+
+#contact::before {
+    height: 480px;
+}
+
+#contact-box input,
+#contact-box textarea {
+    font-size: 0.7rem;
+}
+
+#contact-box label {
+    font-size: 1rem;
+}
+
+
+/* utility  */
+
+.h-prim {
+    font-size: 2rem;
+}
+
+.h-sec {
+    font-size: 1.5rem;
+}
+
+.btn {
+    font-size: 1rem;
+    padding: 1px 4px;
+}
